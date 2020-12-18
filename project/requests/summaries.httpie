@@ -1,0 +1,5 @@
+// POST URL
+http --json POST http://localhost:8004/summaries/ url=http://testdriven.io
+
+// GET URL by ID
+http --json GET http://localhost:8004/summaries/1/
